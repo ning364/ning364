@@ -4,18 +4,11 @@ This is a summary of Leetcode Stucy in which sceaniro could use binary search al
 
 Using Binary search, the array must be sorted.
 
-First Sceanrio. To find a Target in array:  
-        Example:
-        int find(vector<int>& nums, int target) {
-            int left = 0, right = nums.size();
-            while (left < right) {
-                int mid = left + (right - left) / 2;   // To avoid mid value not overflowed.
-                if (nums[mid] == target) return mid;
-                else if (nums[mid] < target) left = mid + 1;
-                else right = mid;
-            }
-        return -1;
-        }        
+First Sceanrio. To find a Target in array: 
+
+Second Sceanrio. To find a value not lower or bigger than target in array.
+
+Third Scenario. Give you a region find a value, For example like third divisor of some prime number, the for sum or pair number
+This type of question Must give you a region, then you could find the value in this region.
 
 
-Second Sceanrio
