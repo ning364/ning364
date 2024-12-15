@@ -1,0 +1,16 @@
+Binary Search: How sceanrio could use binary Search.
+
+This is a summary of Leetcode Stucy in which sceaniro could use binary search algorithem. This is only my experience.
+
+Using Binary search, the array must be sorted.
+
+First Sceanrio. To find a Target in array. 
+
+Second Sceanrio. To find a value not lower or bigger than target in array. 
+This can be advance sceanrio to find a index in a array, in this sceaniro this array sort is not care.
+For example: 162 Find peak element.
+
+Third Scenario. Give you a region find a value, For example like third divisor of some prime number, the for sum or pair number
+This type of question Must give you a region, then you could find the value in this region.
+
+
